@@ -3,7 +3,6 @@ vscode-php-cs-fixer
     https://marketplace.visualstudio.com/items?itemName=fterrag.vscode-php-cs-fixer
 
 
-
 keybindings.json
 // Place your key bindings in this file to overwrite the defaults  
 [
@@ -28,3 +27,9 @@ keybindings.json
 
 DotENV  
     https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv
+
+Vetur
+    https://marketplace.visualstudio.com/items?itemName=octref.vetur
+
+PHP IntelliSense
+    https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-intellisense
