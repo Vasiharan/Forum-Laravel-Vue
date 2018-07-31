@@ -32,7 +32,7 @@ class ReadThreadsTest extends TestCase
         $response->assertSee($this->thread->title);
     }
 
-        /** @test */
+    /** @test */
     public function a_user_can_read_replies_that_are_associated_with_a_thread()
     {
         $reply = create('App\Reply', ['thread_id' => $this->thread->id]);
