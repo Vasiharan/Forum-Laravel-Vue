@@ -25,3 +25,6 @@ keybindings.json
         "command": "workbench.action.previousEditor"
     }
 ]
+
+DotENV  
+    https://marketplace.visualstudio.com/items?itemName=mikestead.dotenv
