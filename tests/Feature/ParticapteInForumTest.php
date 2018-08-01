@@ -31,4 +31,16 @@ class ParticapteInForumTest extends TestCase
         $this->get($thread->path())
             ->assertSee($reply->body);
     }
+
+    /** @test */
+    public function a_reply_has_a_body()
+    {
+        $this->withExceptionHandling()->signIn();
+
+        $thread = create('App\Thread');
+        $reply = make('App\Reply', ['body' => null]);
+
+        $this->post($thread->path().'/replies', $reply->toArray())
+             ->assertSessionHasErrors('body');
+    }
 }
